@@ -1,0 +1,577 @@
+fileFormatVersion: 2
+guid: 8f467a72b72146743b5657ce734b953f
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: -5753784249903138078
+    second: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|Attack1"
+  - first:
+      74: 7273735125953042149
+    second: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|Attack22"
+  - first:
+      74: 4197160234174576321
+    second: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|Attack3"
+  - first:
+      74: 2612680733020074674
+    second: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|damage"
+  - first:
+      74: 6366214788803983781
+    second: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|damage2"
+  - first:
+      74: 7725272898669560843
+    second: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|death"
+  - first:
+      74: 9070772929390363602
+    second: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|dodge"
+  - first:
+      74: 6538976719846023939
+    second: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|HavyAttack1"
+  - first:
+      74: 7891999650928043611
+    second: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|HavyAttack2"
+  - first:
+      74: -773098008062872116
+    second: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|idle"
+  - first:
+      74: -5653920804510276900
+    second: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|walk"
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|Attack1"
+      takeName: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|Attack1"
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|Attack22"
+      takeName: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|Attack22"
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|Attack3"
+      takeName: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|Attack3"
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|damage"
+      takeName: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|damage"
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|damage2"
+      takeName: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|damage2"
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|death"
+      takeName: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|death"
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|dodge"
+      takeName: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|dodge"
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|HavyAttack1"
+      takeName: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|HavyAttack1"
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|HavyAttack2"
+      takeName: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|HavyAttack2"
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|idle"
+      takeName: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|idle"
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|walk"
+      takeName: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430|walk"
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: playerModel(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube
+      parentName: playerModel(Clone)
+      position: {x: -0.060553353, y: 6.068785, z: -0.0000000014176308}
+      rotation: {x: -0.707018, y: 0.011205275, z: -0.01120527, w: 0.707018}
+      scale: {x: 100, y: 100, z: 100}
+    - name: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430"
+      parentName: playerModel(Clone)
+      position: {x: -0.24355851, y: 7.9844255, z: 0.13224143}
+      rotation: {x: -0.707018, y: 0.011205274, z: -0.011205271, w: 0.707018}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bone
+      parentName: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430"
+      position: {x: 0.0036309387, y: 0.017589347, z: -0.03482798}
+      rotation: {x: 0.9571326, y: -0.036743272, z: 0.2512153, w: -0.13942051}
+      scale: {x: 1.0000001, y: 1, z: 0.99999917}
+    - name: Bone.001
+      parentName: Bone
+      position: {x: -0.0000000018067657, y: 0.016077844, z: -8.9406965e-10}
+      rotation: {x: -0.6542331, y: 0.06501156, z: -0.4743703, w: 0.5854276}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: Bone.003
+      parentName: Bone.001
+      position: {x: -0, y: 0.010745112, z: 1.4901161e-10}
+      rotation: {x: 0.002647042, y: 0.000000029802319, z: 0.0032628174, w: 0.9999912}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1.0000005}
+    - name: Bone.002
+      parentName: Bone.003
+      position: {x: -1.4901161e-10, y: 0.017400337, z: 0}
+      rotation: {x: 0.022214295, y: -0.01521766, z: 0.031234866, w: 0.9991494}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999998}
+    - name: Bone.002_end
+      parentName: Bone.002
+      position: {x: -0, y: 0.011838545, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.004
+      parentName: Bone.003
+      position: {x: 0.005286249, y: 0.012528854, z: 0.005621162}
+      rotation: {x: 0.2674993, y: -0.22299968, z: -0.70309514, w: 0.6199778}
+      scale: {x: 1.0000011, y: 1.0000004, z: 0.9999998}
+    - name: Bone.005
+      parentName: Bone.004
+      position: {x: -0.0000000017881393, y: 0.016119638, z: -1.4901161e-10}
+      rotation: {x: 0.02297175, y: 0.001515165, z: 0.047359526, w: 0.99861264}
+      scale: {x: 1.0000007, y: 1.0000007, z: 0.99999994}
+    - name: Bone.006
+      parentName: Bone.005
+      position: {x: 0.0000000026077032, y: 0.014487399, z: 5.9604643e-10}
+      rotation: {x: -0.020513892, y: 0.00098974, z: 0.07482542, w: 0.9969852}
+      scale: {x: 1.0000001, y: 0.99999934, z: 1.0000002}
+    - name: Bone.006_end
+      parentName: Bone.006
+      position: {x: -0, y: 0.0033680361, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.010
+      parentName: Bone.003
+      position: {x: -0.0061565656, y: 0.012345944, z: -0.004491153}
+      rotation: {x: -0.13026673, y: -0.3683529, z: 0.7422552, w: 0.54442996}
+      scale: {x: 1.0000007, y: 0.99999976, z: 0.99999964}
+    - name: Bone.011
+      parentName: Bone.010
+      position: {x: -2.2351741e-10, y: 0.016119638, z: -7.45058e-10}
+      rotation: {x: 0.040633533, y: 0.6069684, z: -0.009719029, w: 0.793627}
+      scale: {x: 1.0000005, y: 1.0000004, z: 0.99999976}
+    - name: Bone.012
+      parentName: Bone.011
+      position: {x: -0.0000000011920929, y: 0.014487399, z: 0.0000000019371509}
+      rotation: {x: 0.014781034, y: -0.43508515, z: -0.07152317, w: 0.89742243}
+      scale: {x: 1.0000004, y: 1.0000005, z: 0.9999997}
+    - name: Bone.012_end
+      parentName: Bone.012
+      position: {x: -0, y: 0.0033680361, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.007
+      parentName: Bone
+      position: {x: 0.0027610164, y: 0.017518047, z: 0.0032119923}
+      rotation: {x: 0.6131801, y: -0.20310448, z: 0.010475605, w: 0.7633145}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+    - name: Bone.008
+      parentName: Bone.007
+      position: {x: 0.0000000013038516, y: 0.01607153, z: -0.0000000013411044}
+      rotation: {x: 0.034616705, y: 0.0015427172, z: 0.05078751, w: 0.99810827}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Bone.009
+      parentName: Bone.008
+      position: {x: 3.72529e-10, y: 0.021510959, z: 7.4505804e-11}
+      rotation: {x: -0.6528622, y: -0.060204383, z: 0.05692721, w: 0.7529315}
+      scale: {x: 0.9999997, y: 1.0000002, z: 1.0000002}
+    - name: Bone.009_end
+      parentName: Bone.009
+      position: {x: -0, y: 0.009717426, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.013
+      parentName: Bone
+      position: {x: -0.0040063285, y: 0.017783303, z: -0.0005153005}
+      rotation: {x: 0.58345073, y: -0.3340645, z: 0.18873176, w: 0.7157978}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000006}
+    - name: Bone.014
+      parentName: Bone.013
+      position: {x: -8.5681673e-10, y: 0.016071519, z: 0}
+      rotation: {x: 0.0138065815, y: -0.0070331395, z: -0.059892222, w: 0.9980846}
+      scale: {x: 0.9999999, y: 1.000001, z: 1.0000006}
+    - name: Bone.015
+      parentName: Bone.014
+      position: {x: -2.9802322e-10, y: 0.021510951, z: 3.352761e-10}
+      rotation: {x: -0.64506936, y: 0.14468832, z: 0.11556536, w: 0.7413471}
+      scale: {x: 1.0000002, y: 1, z: 0.9999999}
+    - name: Bone.015_end
+      parentName: Bone.015
+      position: {x: -0, y: 0.009717426, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430"
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
