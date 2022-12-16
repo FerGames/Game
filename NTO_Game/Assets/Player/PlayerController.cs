@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PlayerController : MonoBehaviour
 {
@@ -25,7 +26,15 @@ public class PlayerController : MonoBehaviour
     public float maxKd = 90;
 
     public float dodgeTime;
+    public float going_in_to_dodge;
+    public float exit_dodge;
+    public float dodge_kd;
     public bool isDodging;
+
+    public int W;
+    public int S;
+    public int A;
+    public int D;
 
     private float gravity = -9.81f;
     private Vector3 velocity;
@@ -66,7 +75,7 @@ public class PlayerController : MonoBehaviour
         Animator = GetComponent<Animator>();
     }
     Vector3 playerRotation;
-    float x = 0, z = 0;
+    public float x = 0, z = 0;
     float angle;
     public Collider sword;
     public int damage;
@@ -76,7 +85,7 @@ public class PlayerController : MonoBehaviour
     {
         kd = 0;
     }
-    void Update()
+    void FixedUpdate()
     {
         if (gameObject.GetComponent<Player>().hp <= 0)
         {
@@ -147,8 +156,18 @@ public class PlayerController : MonoBehaviour
         isOnGround = Physics.CheckSphere(groundChecker.position, groundDistance, Ground);
         if (isOnGround && velocity.y < 0)
             velocity.y = -2f;
-        x = Input.GetAxis("Horizontal");
-        z = Input.GetAxis("Vertical");
+
+        W = Convert.ToInt32(Input.GetKey(KeyCode.W));
+        S = Convert.ToInt32(Input.GetKey(KeyCode.S));
+
+        A = Convert.ToInt32(Input.GetKey(KeyCode.A));
+        D = Convert.ToInt32(Input.GetKey(KeyCode.D));
+
+        if (!isDodging)
+        {
+            z = -1 * S + 1 * W;
+            x = -1 * A + 1 * D;
+        }
 
         Vector3 direction = new Vector3(x, 0, z);
         if (direction.magnitude > Mathf.Abs(0.1f))
@@ -158,7 +177,7 @@ public class PlayerController : MonoBehaviour
         }
         else
             Animator.SetBool("IsWalking", false);
-        rigidBody.velocity = Vector3.ClampMagnitude(direction, 1) * speed;
+
         /*
         if (isMoving(x, z, prex, prez))
         {
@@ -173,13 +192,18 @@ public class PlayerController : MonoBehaviour
         }
         
         */
-        if (Input.GetKeyDown(KeyCode.Z) && direction.magnitude > Mathf.Abs(0.1f))
+
+        if (!isDodging && Input.GetKey(KeyCode.Z) && direction.magnitude > Mathf.Abs(0.1f) && dodge_kd == 0)
         {
-            Vector3 move = transform.right * x + transform.forward * z;
-            Player.Move(move * speed * 20 * Time.deltaTime / 2.5f);
-            dodgeTime = 1;
+            going_in_to_dodge = 10;
+            dodgeTime = 35;
+            exit_dodge = 15;
+            dodge_kd = 10;
             isDodging = true;
-        }/*
+            Animator.Play("Арматура|dodge");
+        }
+
+        /*
 
         if (Input.GetButtonDown("Jump") && isOnGround)
         {
@@ -187,13 +211,39 @@ public class PlayerController : MonoBehaviour
             jumpCounter++;
         }
         */
-        if (dodgeTime > 0)
-            dodgeTime -= Time.deltaTime;
-        else
-        {
-            dodgeTime = 0;
+
+        if (going_in_to_dodge > 0) {
+            speed = 2;
+            going_in_to_dodge -= 1;
+
+        } else if (dodgeTime > 0) {
+
+            dodgeTime -= 1;
+            isDodging = true;
+            speed = 15;
+
+        } else if (exit_dodge > 0) {
+
+            exit_dodge -= 1;
             isDodging = false;
+            speed = 2;
+
+        } else {
+
+            dodgeTime = 0;
+            going_in_to_dodge = 0;
+            exit_dodge = 0;
+            speed = 12;
+            if (dodge_kd > 0) {
+            dodge_kd -= 1;
+            }
+            if (dodge_kd == 0) {
+                isDodging = false;
+            }
         }
+
+        
+
         /*
         velocity.y += gravity * Time.deltaTime;
 
@@ -201,6 +251,8 @@ public class PlayerController : MonoBehaviour
         prex = x;
         prez = z;
         */
+
+        rigidBody.velocity = Vector3.ClampMagnitude(direction, 1) * (speed);
     }
 }
 
