@@ -57,7 +57,7 @@ public class Enemy : Entity
             {
                 if (maxKd <= kd)
                 {
-                    sword.enabled = true;
+                    //sword.enabled = true;
                     Animator.SetBool("IsWalking", false);
                     Agent.enabled = false;
                     Animator.Play("Арматура|Attack1");

@@ -121,7 +121,7 @@ public class PlayerController : MonoBehaviour
         {
             if (maxKd <= kd)
             {
-                sword.enabled = true;
+                //sword.enabled = true;
                 Animator.SetBool("IsWalking", false);
                 Animator.Play("Арматура|Attack3");
                 Attack(damage);
@@ -130,11 +130,11 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetButtonDown("Fire1") && isSecondAttacking)
         {
-            if (maxKd <= kd)
+            if (kd >= 30    )
             {
-                sword.enabled = true;
+                //sword.enabled = true;
                 Animator.SetBool("IsWalking", false);
-                Animator.Play("Арматура|Attack22");
+                Animator.Play("Арматура|Attack22 0");
                 Attack(damage);
                 StartCoroutine(SwordOff());
                 isThirdAttacking = true;
@@ -142,11 +142,12 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetButtonDown("Fire1"))
         {
+            Debug.Log("yeees");
             if (maxKd <= kd)
             {
-                sword.enabled = true;
+                //sword.enabled = true;
                 Animator.SetBool("IsWalking", false);
-                Animator.Play("Арматура|Attack1");
+                Animator.Play("Арматура|Attack1 0");
                 Attack(damage);
                 StartCoroutine(SwordOff());
                 isSecondAttacking = true;
@@ -200,7 +201,7 @@ public class PlayerController : MonoBehaviour
             exit_dodge = 15;
             dodge_kd = 10;
             isDodging = true;
-            Animator.Play("Арматура|dodge");
+            Animator.Play("Арматура|dodge 0");
         }
 
         /*
